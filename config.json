@@ -1,0 +1,11 @@
+[
+	{
+		"id" : "/1234/travel/asia/food",
+		"size" : [[728,90],[970,90]],
+		"target" : "ad_unit_728x90"
+	},{
+		"id" : "/1234/travel/asia/food",
+		"size" : [320,250],
+		"target" : "ad_unit_320x50"
+	}
+]	

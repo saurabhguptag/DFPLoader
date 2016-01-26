@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+		<script src="DFPLoader.js"></script>
+	</head>
+	<body>
+		<h2>Hello DFP World!!!</h2>
+		<script>
+			var myAPP = angular.module('myAPP',['DFPLoader']);
+			myAPP.run(['$rootScope','DFP',function($rootScope,DFP) {
+				DFP.init({api : "config.json"});
+			}]); 
+			angular.bootstrap(document, ['myAPP']);
+		</script>
+		<div id="ad_unit_728x90"></div>
+		<div id="ad_unit_320x50"></div>
+	</body>
+</html>
