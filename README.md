@@ -2,8 +2,8 @@
 A Angular Module, Which helps integrating DFP on your site using a config file.
 Config Based DFP ad code loading, Just define the ad units id, target and size and you are good to go.
 
-#Defination
-The config takes 
+# Defination
+The config takes
 * api : (URL) : Defination of Adunits
 * singleRequest : (boolean) : DFP Single Request
 * data : (array) : Array of Adunits
@@ -16,12 +16,12 @@ Adunit Array should have object with "id", "size", "target"
 * target : (string) : The dom element Id which needs to be targeted.
 
 
-#Usage
+# Usage
 
 In case of calling through API call
-```DFP.init({api : "config.json"}); ```
+
+```DFP.init({api : "config.json"});```
 
 In case of defining Inline
+
 ```DFP.init({data: [{"id" : "/1234/travel/asia/food","size" : [[728,90],[970,90]],"target" : "ad_unit_728x90"},{"id" : "/1234/travel/asia/food","size" : [[320,250]],"target" : "ad_unit_320x50"}]}); ```
-
-
